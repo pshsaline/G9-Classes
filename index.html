@@ -13,14 +13,17 @@
       type="image/png" 
       href="images/pshs.ico" />
 	<style>
+		/* using a font-family that Alumni Sans under the generic font sans serif that can be found in google font */
 		@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
 		body {
+			/* to set the background color and image on the homepage then blend them together */
 			background: url("images/pshsadmin.jpg") no-repeat fixed;
 			background-size: 100% 100%;
 			background-color: blue;
 			background-blend-mode: lighten;
 			font-family: 'Alumni Sans', sans-serif;
 		}
+		/* this style is for the box on the middle of the screen */
 		div {
 			box-sizing: border-box;
 			position: absolute;
@@ -35,6 +38,8 @@
 			opacity: 0.75;
 			color: white;
 		}
+		
+		/* additional style rule for the content of the homepage */
 		h1 {
 			font-size: 4rem;
 			text-align: center;
@@ -47,10 +52,14 @@
 			height: 25%;
 			margin: 5px;
 		}
-		a {opacity: 0.75;}
+		
+		/* this style is an effect (transparency) when a user hovers on any of the image links */
+		a {opacity: 0.75;}  /* image transparency is at 75% */
 		a:hover {
-			opacity: 1.0;
+			opacity: 1.0;  /* the image is not transparent when hovered on by a user */
 		}
+		
+		/* paragraph and definition list transparency. */
 		p, dl {
 			font-size: .75em
 		}
