@@ -1,34 +1,45 @@
-body {
-			background: #E27D60;
-			font-family: arial;
-		}
-		body > div:first-child {
-			height: 200px;
-			border: 1px solid gray;
-			overflow: hidden;
-			padding: 30px;
-			background: #41A3B3;
-			text-align: center;
-			clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-		}
-		#students div { 
-			height: 200px;
-			width: 20%;
-			float: left;
-			border: 2px solid gray;
-			overflow: auto;
-			padding: 20px;
-			margin: 0 0 20px 20px;		
-			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);	
-			
+/* to include in the box size of the div the border and spacing properties */
+* { box-sizing: border-box; }
 
-		}
-		#students div:nth-child(odd) {
-			background: #E8A87C;
-		}
-		#students div:nth-child(even) {
-			background: #C38D9E;
-		}
-		#students h1, #students h2 {text-align: center}
+/* to set the web page background color and font family to arial */
+body {
+	background: #E27D60;
+	font-family: arial;
+}
+
+/* style for the web page header */
+body > div:first-child {
+	height: 200px;
+	border: 1px solid gray;
+	overflow: hidden;
+	padding: 30px;
+	background: #41A3B3;
+	text-align: center;
+	/* to create a right arrow point */
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+/* to format all students in the list */
+#students div { 
+	height: 200px;
+	width: 20%;
+	float: left;
+	border: 2px solid gray;
+	overflow: auto;
+	padding: 20px;
+	margin: 0 0 20px 20px;		
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);	
+}
+
+/* to use alternating background colors for odd and even positioned div under div with student class */
+#students div:nth-child(odd) {
+	background: #E8A87C;
+}
+#students div:nth-child(even) {
+	background: #C38D9E;
+}
+
+/* to center all h1 and h2 headers containing the names of the student */
+#students h1, #students h2 {text-align: center}
