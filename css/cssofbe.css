@@ -1,0 +1,89 @@
+ /* Aquino good start you could finish this :) */
+      #marcus {
+        background-color: #22282e;
+        color: #9ccaf7;
+        font-family: Trebuchet MS;
+        width: 20%;
+        height: 200px;
+        overflow: auto;
+        padding: 10px;
+        border: #cf8d3c;
+        border-radius: 3px;
+        border-width: 3px;
+        border-style: solid;
+      }
+      
+      #link {
+      	background-color: #e69430;
+        color: #4b4e57;
+      }
+      
+      #unordered {
+        color: #fffff0;
+        font-family: Comic Sans MS;
+      }
+      
+      #ordered {
+      	font-family: Impact;
+        background-color: #7a1475;
+      }
+      
+      #header {
+      	text-shadow: 1px 2px 3px #cf8123;
+      }
+
+/* Cristobal */
+    #Design
+      {
+      	background-color: #F7CAC9;
+        color: #800000;
+        font-family: 'Roboto Slab', serif;
+        width: 20%;
+        height: 200px;
+        overflow: auto;
+        padding: 10px;
+        border-style: dashed;
+        border-radius: 5px;
+        border-color: #f08080;
+        border-width: 5px;
+      }
+     
+      #Design ul
+      {
+      	font-weight: 900;
+      }
+      
+      #Design ol
+      {
+      	font-weight: 100;
+        font-style: italic;
+      }
+      
+      div#Design > h1, div#Design > h2, div#Design > h3
+      {
+      	font-family: 'Shadows Into Light', cursive;
+      	text-shadow: 2px 2px #f08080;
+      }
+      
+      #Design a
+      {
+      	color: #800000;
+        background: #ff9999;
+        padding: 4px;
+        margin: 3px;
+        text-decoration: none;
+        border-radius: 5px; 
+      }
+      
+      #Design a:hover
+      {
+      	color: #800000;
+        background: #f08080;
+      }
+      
+      div#Design > h1 > img
+      {
+      	border-radius: 100px;
+        float: left;
+      }
+/* *?
