@@ -1,4 +1,5 @@
- /* Aquino good start you could finish this :) */
+	@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+/* Aquino good start you could finish this :) */
       #marcus {
         background-color: #22282e;
         color: #9ccaf7;
@@ -86,4 +87,82 @@
       	border-radius: 100px;
         float: left;
       }
-/* *?
+/* Gongsengfiao  */
+#Amelia 
+      {
+      	background-color: #E4D7F3;
+        color: #3C0E70;
+        font-family: Lato;
+        width: 20%;
+        height: 200px;
+        overflow: auto;
+        padding: 10px;
+        border-style: dotted;
+        border-radius: 5px;
+        border-color: #7A3EA1;
+        border-width: 5px;
+      }
+			
+      #Amelia ul
+      {
+      	font-weight: bold;
+      }
+      
+      #Amelia ol
+      {
+      	word-spacing: 5px;
+      }
+      
+      /* use descendant or parent selector for your headers */
+      div#Amelia > h1, div#Amelia > h2, div#Amelia > h3
+      {
+      	text-shadow: 2px 2px  #CEB8E7;
+      }
+      
+      #Amelia a
+      {
+      	color: #EFD4E4;
+        background: #412786;
+        text-decoration: none;
+        padding: 4px;
+        margin: 3px;
+        border-radius: 5px; 
+      }
+      
+      #Amelia a:hover
+      {
+      	color: #7A3EA1;
+        background: #CEB8E7;
+      }
+      
+      div#Amelia > h1 > img
+      {
+      	border-radius: 100px;
+        float: left;
+      }
+
+ /* Juganas */
+ #DaniJ {
+  background-color:#FFBED9;
+   color:rgb(105,4,32);
+   font-family:Comic Sans MS;
+   width:20%;
+   height:200px;
+   overflow:auto;
+   padding:10px
+ }
+  #h{
+    text-shadow:1px 1px 3px #DA0843; 
+   }
+ #list1 {
+   text-align: right;
+   color:rgb(66,0,105);
+   }
+  #list2 {
+   letter-spacing:2px;
+   color:rgb(4,32,105); 
+   }
+   #a {
+   color: white;
+   background: #DA0843;
+  }
