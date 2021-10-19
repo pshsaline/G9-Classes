@@ -20,6 +20,9 @@ body > div:first-child {
 }
 
 /* to format all students in the list */
+#students {
+	margin-left: 10%;
+}
 #students div { 
 	height: 200px;
 	width: 20%;
