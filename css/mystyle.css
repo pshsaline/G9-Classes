@@ -3,7 +3,7 @@
 
 /* to set the web page background color and font family to arial */
 body {
-	background: #E27D60;
+	background-color: #E27D60;
 	font-family: arial;
 }
 
@@ -13,7 +13,7 @@ body > div:first-child {
 	border: 1px solid gray;
 	overflow: hidden;
 	padding: 30px;
-	background: #41A3B3;
+	background-color: #41A3B3;
 	text-align: center;
 	/* to create a right arrow point */
 	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -35,10 +35,10 @@ body > div:first-child {
 
 /* to use alternating background colors for odd and even positioned div under div with student class */
 #students div:nth-child(odd) {
-	background: #E8A87C;
+	background-color: #E8A87C;
 }
 #students div:nth-child(even) {
-	background: #C38D9E;
+	background-color: #C38D9E;
 }
 
 /* to center all h1 and h2 headers containing the names of the student */
